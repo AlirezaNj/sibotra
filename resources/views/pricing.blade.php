@@ -15,7 +15,7 @@
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <li><a class="nav-link " href="{{route('home')}}">Home</a></li>
-                    <li><a class="nav-link " href="{{route('home')}}">About</a></li>
+                    <li><a class="nav-link " href="{{route('about')}}">About</a></li>
                     <li><a class="nav-link active" href="{{route('pricing')}}">Pricing</a></li>
                     <li><a class="nav-link " href="{{route('tutorial')}}">Tutorial </a></li>
                     <li><a class="nav-link " href="{{route('home')}}">Contact</a></li>
@@ -132,12 +132,14 @@
                                         <div class="col-md-12">
                                             <div class="row" style="  display: flex; flex-wrap: wrap;">
                                                 <div class="col-md-6">
-                                                    <img class="rounded w-100" src="assets/img/chart_1_1.jpg"
+                                                    <img class="rounded w-100" src="assets/img/sibotra-Chart--1.jpg"
+                                                         style="object-fit: cover;" alt="">
+                                                    {{--<img class="rounded w-100" src="assets/img/chart_1_1.jpg"
                                                          style="object-fit: cover;" alt="">
                                                     <img class="rounded w-100" src="assets/img/chart_1_2.jpg"
                                                          style="object-fit: cover;" alt="">
                                                     <img class="rounded w-100" src="assets/img/chart_1_3.jpg"
-                                                         style="object-fit: cover;" alt="">
+                                                         style="object-fit: cover;" alt="">--}}
                                                 </div>
                                                 <div class="col-md-6">
                                                     <img class="rounded w-100" src="assets/img/chart_1_4.jpg"
@@ -162,12 +164,14 @@
                                         <div class="col-md-12">
                                             <div class="row" style="  display: flex; flex-wrap: wrap;">
                                                 <div class="col-md-6">
-                                                    <img class="rounded w-100" src="assets/img/chart_2_1.jpg"
+                                                    <img class="rounded w-100" src="assets/img/sibotra-Chart--3.jpg"
+                                                         style="object-fit: cover;" alt="">
+                                                    {{--<img class="rounded w-100" src="assets/img/chart_2_1.jpg"
                                                          style="object-fit: cover;" alt="">
                                                     <img class="rounded w-100" src="assets/img/chart_2_2.jpg"
                                                          style="object-fit: cover;" alt="">
                                                     <img class="rounded w-100" src="assets/img/chart_2_3.jpg"
-                                                         style="object-fit: cover;" alt="">
+                                                         style="object-fit: cover;" alt="">--}}
                                                 </div>
                                                 <div class="col-md-6">
                                                     <img class="rounded w-100" src="assets/img/chart_2_4.jpg"
@@ -201,12 +205,14 @@
                                         <div class="col-md-12">
                                             <div class="row" style="  display: flex; flex-wrap: wrap;">
                                                 <div class="col-md-6">
-                                                    <img class="rounded w-100" src="assets/img/chart_3_1.jpg"
+                                                    <img class="rounded w-100" src="assets/img/sibotra-Chart--5.jpg"
+                                                         style="object-fit: cover;" alt="">
+                                                    {{--<img class="rounded w-100" src="assets/img/chart_3_1.jpg"
                                                          style="object-fit: cover;" alt="">
                                                     <img class="rounded w-100" src="assets/img/chart_3_2.jpg"
                                                          style="object-fit: cover;" alt="">
                                                     <img class="rounded w-100" src="assets/img/chart_3_3.jpg"
-                                                         style="object-fit: cover;" alt="">
+                                                         style="object-fit: cover;" alt="">--}}
                                                 </div>
                                                 <div class="col-md-6">
                                                     <img class="rounded w-100" src="assets/img/chart_3_4.jpg"
@@ -296,13 +302,13 @@
                 </div>
             </div>
         </section>
+        <!-- ======= Pricing Section ======= -->
         <section id="pricing" class="pricing section-bg wow fadeInUp">
 
             <div class="container" data-aos="fade-up">
 
                 <header class="section-header">
                     <h3>Products</h3>
-                    {{--                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>--}}
                 </header>
 
                 <div class="row flex-items-xs-middle flex-items-xs-center">
@@ -311,17 +317,30 @@
                     <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="card">
                             <div class="card-header">
-                                <h3><span class="currency">USDT</span>10<span class="period">/month</span></h3>
+                                <h3><span class="currency">USDT</span>40<span class="period">/month</span></h3>
                             </div>
                             <div class="card-block">
                                 <h4 class="card-title">
                                     Signal Channel
                                 </h4>
-                                {{--<ul class="list-group">
-                                    <li class="list-group-item">High risk:piles of orders,rise in profits</li>
-                                    <li class="list-group-item">Middle risk:reasonable number of orders,acceptable profit</li>
-                                    <li class="list-group-item">Low risk:few orders,less profit,high win rate</li>
-                                </ul>--}}
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input type="radio" id="duration1" class="" name="duration" value="7">
+                                        <label for="duration1">10<span class="currency"> USDT </span><span class="period">/week</span></label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input type="radio" id="duration2" class="" name="duration" value="30" checked>
+                                        <label for="duration2">40<span class="currency"> USDT </span><span class="period">/month</span></label>
+
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input type="radio" id="duration3" class="" name="duration" value="90">
+                                        <label for="duration3">100<span class="currency"> USDT </span><span class="period">/3months</span></label>
+
+
+                                    </li>
+                                </ul>
+
                                 <a href="#" class="btn">Buy now</a>
                                 <a href="#" class="btn-outline">Free trial</a>
                             </div>
@@ -329,7 +348,7 @@
                     </div>
 
                     <!-- Regular Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-xs-12 col-lg-4 disabled-element" data-aos="fade-up" data-aos-delay="200">
                         {{--<div class="card">
                             <div class="card-header">
                                 <h3><span class="currency">$</span>29<span class="period">/month</span></h3>
@@ -348,10 +367,10 @@
                             </div>
                         </div>--}}
                         <div class="card">
-                            <div class="card-header">
-                                <h3><span class="currency">USDT</span>20<span class="period">/month</span></h3>
+                            <div class="card-header disabled-element">
+                                <h3><span class="currency">USDT</span>0<span class="period">/month</span></h3>
                             </div>
-                            <div class="card-block">
+                            <div class="card-block disabled-element">
                                 <h4 class="card-title">
                                     Auto Trade
                                 </h4>
@@ -360,19 +379,19 @@
                                     <li class="list-group-item">Middle risk:reasonable number of orders,acceptable profit</li>
                                     <li class="list-group-item">Low risk:few orders,less profit,high win rate</li>
                                 </ul>--}}
-                                <a href="#" class="btn">Buy now</a>
-                                <a href="#" class="btn-outline">Free trial</a>
+                                <a href="#" class="btn" disabled>Buy now</a>
+                                <a href="#" class="btn-outline" disabled>Free trial</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Premium Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xs-12 col-lg-4 disabled-element" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <div class="card-header">
-                                <h3><span class="currency">USDT</span>30<span class="period">/month</span></h3>
+                            <div class="card-header disabled-element">
+                                <h3><span class="currency">USDT</span>0<span class="period">/month</span></h3>
                             </div>
-                            <div class="card-block">
+                            <div class="card-block disabled-element">
                                 <h4 class="card-title">
                                     Auto Trade Plus
                                 </h4>

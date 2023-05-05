@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PaymentController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -25,6 +26,10 @@ Route::get('/tutorial', function () {
     return view('tutorial');
 })->name('tutorial');
 
+Route::get('/about', function () {
+    return view('about');
+})->name('about');
+
 Auth::routes();
 
 Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
@@ -34,4 +39,5 @@ Route::post('/token', [App\Http\Controllers\Auth\TokenController::class, 'verify
 Route::patch('/dashboard/{user}/update', [App\Http\Controllers\UserController::class, 'update'])->name('user.update')->middleware('auth');
 Route::get('/auth/google', [App\Http\Controllers\Auth\GoogleController::class, 'redirect'])->name('auth.google');
 Route::get('/auth/google/callback', [App\Http\Controllers\Auth\GoogleController::class, 'callback']);
+Route::get('/payment', [PaymentController::class, 'createPayment'])->name('payment.create')->middleware('auth');
 

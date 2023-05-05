@@ -15,7 +15,7 @@
             <nav id="navbar" class="navbar order-last order-lg-0">
                 <ul>
                     <li><a class="nav-link  active" href="{{route('home')}}">Home</a></li>
-                    <li><a class="nav-link " href="{{route('home')}}">About</a></li>
+                    <li><a class="nav-link " href="{{route('about')}}">About</a></li>
                     <li><a class="nav-link " href="{{route('pricing')}}">Pricing</a></li>
                     <li><a class="nav-link " href="{{route('tutorial')}}">Tutorial </a></li>
                     <li><a class="nav-link " href="{{route('home')}}">Contact</a></li>
@@ -78,7 +78,7 @@
 
                     <div class="col-lg-5 col-md-6">
                         <div class="about-img" data-aos="fade-right" data-aos-delay="100">
-                            <img src="assets/img/about.jpg" alt="">
+                            <img src="assets/img/sibotra-web-1.jpg" alt="">
                         </div>
                     </div>
 
@@ -119,8 +119,9 @@
 
                     <div class="col-md-6 col-lg-4 wow bounceInUp" data-aos="zoom-in" data-aos-delay="100">
                         <div class="box">
-                            <div class="icon" style="background: #fceef3;">
-                                <i class="bi bi-speedometer2" style="color: #ff689b;"></i>
+                            <div class="icon" >
+                                <img src="assets/img/SPEED.svg" alt="">
+{{--                                <i class="bi bi-speedometer2" style="color: #ff689b;"></i>--}}
                             </div>
                             <h4 class="title"><a href="">Speed</a></h4>
                             <p class="description">
@@ -130,8 +131,9 @@
                     </div>
                     <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                         <div class="box">
-                            <div class="icon" style="background: #fff0da;">
-                                <i class="bi bi-card-checklist" style="color: #e98e06;"></i>
+                            <div class="icon">
+                                <img src="assets/img/CONSISTENCY.svg" alt="">
+{{--                                <i class="bi bi-card-checklist" style="color: #e98e06;"></i>--}}
                             </div>
                             <h4 class="title"><a href="">Consistency</a></h4>
                             <p class="description">
@@ -142,7 +144,10 @@
 
                     <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
                         <div class="box">
-                            <div class="icon" style="background: #e6fdfc;"><i class="bi bi-bar-chart" style="color: #3fcdc7;"></i></div>
+                            <div class="icon">
+                                <img src="assets/img/BACKTESTING.svg" alt="">
+{{--                                <i class="bi bi-bar-chart" style="color: #3fcdc7;"></i>--}}
+                            </div>
                             <h4 class="title"><a href="">Backtesting</a></h4>
                             <p class="description">
                                 Machine learning algorithms can be tested and optimized on historical data before deploying them in live trading.
@@ -151,7 +156,10 @@
                     </div>
                     <div class="col-md-6 col-lg-4 wow" data-aos="zoom-in" data-aos-delay="100">
                         <div class="box">
-                            <div class="icon" style="background: #eafde7;"><i class="bi bi-clock" style="color:#41cf2e;"></i></div>
+                            <div class="icon">
+                                <img src="assets/img/TRADING.svg" alt="">
+{{--                                <i class="bi bi-clock" style="color:#41cf2e;"></i>--}}
+                            </div>
                             <h4 class="title"><a href="">24/7 Trading</a></h4>
                             <p class="description">
                                 Automated trading systems can operate 24/7, maximizing opportunities in markets that are open at all hours.
@@ -161,7 +169,10 @@
 
                     <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
                         <div class=" box">
-                            <div class="icon" style="background: #e1eeff;"><i class="bi bi-graph-up-arrow" style="color: #2282ff;"></i></div>
+                            <div class="icon">
+                                <img src="assets/img/SCALABILITY.svg" alt="">
+{{--                                <i class="bi bi-graph-up-arrow" style="color: #2282ff;"></i>--}}
+                            </div>
                             <h4 class="title"><a href="">Scalability</a></h4>
                             <p class="description">
                                 Automated trading systems can handle a large number of trades simultaneously, making it possible to scale up trading strategies.
@@ -185,8 +196,8 @@
         <section id="features" class="features">
             <div class="container" data-aos="fade-up">
                 <div class="row feature-item">
-                    <div class="col-lg-6 wow fadeInUp order-1 order-lg-2 text-center" data-aos="fade-left" data-aos-delay="100">
-                        <img src="assets/img/works.jpg" class="img-fluid" alt="" style="width: 65%;">
+                    <div class="col-lg-6 wow fadeInUp order-1 order-lg-2 text-end" data-aos="fade-left" data-aos-delay="100">
+                        <img src="assets/img/sibotra-web-2.jpg" class="img-fluid" alt="" style="width: 70%;">
                     </div>
 
                     <div class="col-lg-6 wow fadeInUp pt-4 pt-lg-0 order-2 order-lg-1" data-aos="fade-right" data-aos-delay="150">
@@ -255,7 +266,7 @@
                 <div class="row">
                     <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
                         <div class="why-us-img">
-                            <img src="assets/img/bitcoin-business-as-part-economy.jpg" alt="" class="img-fluid">
+                            <img src="assets/img/Robot Trader.svg" alt="" class="img-fluid">
                         </div>
 
                         <div class="container mt-5">
@@ -280,7 +291,8 @@
 
                         <div class="why-us-content">
                             <div class="features clearfix" data-aos="fade-up" data-aos-delay="100">
-                                <i class="bi bi-rocket-takeoff" style="color: #f058dc;"></i>
+                                <img src="assets/img/Trade in high Speed.svg" alt="">
+{{--                                <i class="bi bi-rocket-takeoff" style="color: #f058dc;"></i>--}}
                                 <h4>Trade in high Speed</h4>
                                 <p>
                                     Markets such as cryptocurrency and Forex, are highly volatile and operate around the clock.
@@ -290,7 +302,8 @@
                             </div>
 
                             <div class="features clearfix" data-aos="fade-up" data-aos-delay="200">
-                                <i class="bi bi-stopwatch" style="color: #ffb774;"></i>
+                                <img src="assets/img/Trade around the clock.svg" alt="">
+{{--                                <i class="bi bi-stopwatch" style="color: #ffb774;"></i>--}}
                                 <h4>Trade around the clock</h4>
                                 <p>
                                     High-Frequency Trading is a strategy that allows the bot to make hundreds and thousands of trades in a matter of seconds.
@@ -299,7 +312,8 @@
                             </div>
 
                             <div class="features clearfix" data-aos="fade-up" data-aos-delay="300">
-                                <i class="bi bi-columns-gap" style="color: #589af1;"></i>
+                                <img src="assets/img/Remain disciplined.svg" alt="">
+{{--                                <i class="bi bi-columns-gap" style="color: #589af1;"></i>--}}
                                 <h4>Remain disciplined</h4>
                                 <p>
                                     An advantage that a trading robot can have over a human trader is remaining disciplined. Sibotra is 100% of the time.
@@ -307,7 +321,8 @@
                             </div>
 
                             <div class="features clearfix" data-aos="fade-up" data-aos-delay="400">
-                                <i class="bi bi-magic" style="color: #41cf2e;"></i>
+                                <img src="assets/img/Open more positions.svg" alt="">
+{{--                                <i class="bi bi-magic" style="color: #41cf2e;"></i>--}}
                                 <h4>Open more positions</h4>
                                 <p>
                                     In comparison to the the old fashioned way, traders who use robots can gain much more market exposure.
@@ -317,7 +332,8 @@
                             </div>
 
                             <div class="features clearfix" data-aos="fade-up" data-aos-delay="500">
-                                <i class="bi bi-emoji-sunglasses" style="color: #e98e06;"></i>
+                                <img src="assets/img/Trade without emotion.svg" alt="">
+{{--                                <i class="bi bi-emoji-sunglasses" style="color: #e98e06;"></i>--}}
                                 <h4>Trade without emotion</h4>
                                 <p>
                                     When a market shows volatility or a position looks like it may turn against them,
@@ -352,17 +368,30 @@
                     <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="100">
                         <div class="card">
                             <div class="card-header">
-                                <h3><span class="currency">USDT</span>0<span class="period">/month</span></h3>
+                                <h3><span class="currency">USDT</span>40<span class="period">/month</span></h3>
                             </div>
                             <div class="card-block">
                                 <h4 class="card-title">
                                     Signal Channel
                                 </h4>
-                                {{--<ul class="list-group">
-                                    <li class="list-group-item">High risk:piles of orders,rise in profits</li>
-                                    <li class="list-group-item">Middle risk:reasonable number of orders,acceptable profit</li>
-                                    <li class="list-group-item">Low risk:few orders,less profit,high win rate</li>
-                                </ul>--}}
+                                <ul class="list-group">
+                                    <li class="list-group-item">
+                                        <input type="radio" id="duration1" class="" name="duration" value="7">
+                                        <label for="duration1">10<span class="currency"> USDT </span><span class="period">/week</span></label>
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input type="radio" id="duration2" class="" name="duration" value="30" checked>
+                                        <label for="duration2">40<span class="currency"> USDT </span><span class="period">/month</span></label>
+
+                                    </li>
+                                    <li class="list-group-item">
+                                        <input type="radio" id="duration3" class="" name="duration" value="90">
+                                        <label for="duration3">100<span class="currency"> USDT </span><span class="period">/3months</span></label>
+
+
+                                    </li>
+                                </ul>
+
                                 <a href="#" class="btn">Buy now</a>
                                 <a href="#" class="btn-outline">Free trial</a>
                             </div>
@@ -370,7 +399,7 @@
                     </div>
 
                     <!-- Regular Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="col-xs-12 col-lg-4 disabled-element" data-aos="fade-up" data-aos-delay="200">
                         {{--<div class="card">
                             <div class="card-header">
                                 <h3><span class="currency">$</span>29<span class="period">/month</span></h3>
@@ -389,10 +418,10 @@
                             </div>
                         </div>--}}
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header disabled-element">
                                 <h3><span class="currency">USDT</span>0<span class="period">/month</span></h3>
                             </div>
-                            <div class="card-block">
+                            <div class="card-block disabled-element">
                                 <h4 class="card-title">
                                     Auto Trade
                                 </h4>
@@ -401,19 +430,19 @@
                                     <li class="list-group-item">Middle risk:reasonable number of orders,acceptable profit</li>
                                     <li class="list-group-item">Low risk:few orders,less profit,high win rate</li>
                                 </ul>--}}
-                                <a href="#" class="btn">Buy now</a>
-                                <a href="#" class="btn-outline">Free trial</a>
+                                <a href="#" class="btn" disabled>Buy now</a>
+                                <a href="#" class="btn-outline" disabled>Free trial</a>
                             </div>
                         </div>
                     </div>
 
                     <!-- Premium Plan  -->
-                    <div class="col-xs-12 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="col-xs-12 col-lg-4 disabled-element" data-aos="fade-up" data-aos-delay="300">
                         <div class="card">
-                            <div class="card-header">
+                            <div class="card-header disabled-element">
                                 <h3><span class="currency">USDT</span>0<span class="period">/month</span></h3>
                             </div>
-                            <div class="card-block">
+                            <div class="card-block disabled-element">
                                 <h4 class="card-title">
                                     Auto Trade Plus
                                 </h4>
@@ -496,7 +525,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <img src="assets/img/avatar1.jpg" class="testimonial-img" alt="">
+                                        <img src="assets/img/s-ph-1.svg" class="testimonial-img" alt="">
                                         <h3>John Doe</h3>
 {{--                                        <h4>Ceo &amp; Founder</h4>--}}
                                         <p>
@@ -511,7 +540,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <img src="assets/img/avatar2.jpg" class="testimonial-img" alt="">
+                                        <img src="assets/img/s-ph-3.svg" class="testimonial-img" alt="">
                                         <h3>Jane Doe</h3>
                                         {{--                                        <h4>Ceo &amp; Founder</h4>--}}
                                         <p>
@@ -525,7 +554,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <img src="assets/img/avatar3.jpg" class="testimonial-img" alt="">
+                                        <img src="assets/img/s-ph-2.svg" class="testimonial-img" alt="">
                                         <h3>Matt Henderson</h3>
                                         {{--                                        <h4>Ceo &amp; Founder</h4>--}}
                                         <p>
@@ -540,7 +569,7 @@
 
                                 <div class="swiper-slide">
                                     <div class="testimonial-item">
-                                        <img src="assets/img/avatar4.jpg" class="testimonial-img" alt="">
+                                        <img src="assets/img/s-ph-4.svg" class="testimonial-img" alt="">
                                         <h3>Sara Brandon</h3>
                                         {{--                                        <h4>Ceo &amp; Founder</h4>--}}
                                         <p>

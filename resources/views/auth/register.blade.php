@@ -5,13 +5,13 @@
 @endsection
 
 @section('content')
-    <section class="vh-100">
-        <div class="container py-5 h-100">
-            <div class="row d-flex align-items-center justify-content-center h-100" data-aos="fade-up">
-                <div class="col-md-8 col-lg-7 col-xl-6" data-aos="zoom-in" data-aos-delay="100">
-                    <img src="assets/img/intro3.png" class="img-fluid" alt="Phone image">
+    <section class="vh-100 mt-5">
+        <div class="container">
+            <div class="row d-flex align-items-center justify-content-center " data-aos="fade-up">
+                <div class="col-md-8 col-lg-7 col-xl-6 " data-aos="zoom-in" data-aos-delay="100">
+                    <img src="assets/img/Login and register-1.svg" class="img-fluid" alt="Phone image">
                 </div>
-                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1" data-aos="zoom-out" data-aos-delay="200">
+                <div class="col-md-7 col-lg-5 col-xl-5 offset-xl-1 mt-2" data-aos="zoom-out" data-aos-delay="200">
                     <form method="POST" action="{{ route('register') }}">
                         @csrf
                         @if ($errors->any())
